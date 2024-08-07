@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		843A1A642C33248600787080 /* Tiger_CatcherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A1A632C33248600787080 /* Tiger_CatcherApp.swift */; };
+		843A1A662C33248600787080 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A1A652C33248600787080 /* MenuView.swift */; };
+		843A1A682C33248700787080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843A1A672C33248700787080 /* Assets.xcassets */; };
+		843A1A6B2C33248700787080 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843A1A6A2C33248700787080 /* Preview Assets.xcassets */; };
+		843A1A742C33294700787080 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A1A732C33294700787080 /* GameView.swift */; };
+		843A1A762C3329C700787080 /* OptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A1A752C3329C700787080 /* OptionsView.swift */; };
+		843A1A782C332A3B00787080 /* ScoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A1A772C332A3B00787080 /* ScoresView.swift */; };
+		845EA8B62C345D7000F28D49 /* GameScene + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845EA8B52C345D7000F28D49 /* GameScene + Ext.swift */; };
+		845EA8B82C348BED00F28D49 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845EA8B72C348BED00F28D49 /* SoundManager.swift */; };
+		845EA8BA2C348CCC00F28D49 /* Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 845EA8B92C348CCC00F28D49 /* Sound.mp3 */; };
+		845EA8BC2C34901C00F28D49 /* Tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 845EA8BB2C34901C00F28D49 /* Tap.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		843A1A602C33248600787080 /* Tiger Catcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tiger Catcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		843A1A632C33248600787080 /* Tiger_CatcherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiger_CatcherApp.swift; sourceTree = "<group>"; };
+		843A1A652C33248600787080 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		843A1A672C33248700787080 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		843A1A6A2C33248700787080 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		843A1A732C33294700787080 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		843A1A752C3329C700787080 /* OptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsView.swift; sourceTree = "<group>"; };
+		843A1A772C332A3B00787080 /* ScoresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresView.swift; sourceTree = "<group>"; };
+		845EA8B52C345D7000F28D49 /* GameScene + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameScene + Ext.swift"; sourceTree = "<group>"; };
+		845EA8B72C348BED00F28D49 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		845EA8B92C348CCC00F28D49 /* Sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sound.mp3; sourceTree = "<group>"; };
+		845EA8BB2C34901C00F28D49 /* Tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tap.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		843A1A5D2C33248600787080 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		843A1A572C33248600787080 = {
+			isa = PBXGroup;
+			children = (
+				843A1A622C33248600787080 /* Tiger Catcher */,
+				843A1A612C33248600787080 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		843A1A612C33248600787080 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				843A1A602C33248600787080 /* Tiger Catcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		843A1A622C33248600787080 /* Tiger Catcher */ = {
+			isa = PBXGroup;
+			children = (
+				843A1A632C33248600787080 /* Tiger_CatcherApp.swift */,
+				843A1A652C33248600787080 /* MenuView.swift */,
+				845EA8B72C348BED00F28D49 /* SoundManager.swift */,
+				845EA8B42C345D5400F28D49 /* Game */,
+				843A1A752C3329C700787080 /* OptionsView.swift */,
+				843A1A772C332A3B00787080 /* ScoresView.swift */,
+				843A1A672C33248700787080 /* Assets.xcassets */,
+				843A1A692C33248700787080 /* Preview Content */,
+			);
+			path = "Tiger Catcher";
+			sourceTree = "<group>";
+		};
+		843A1A692C33248700787080 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				845EA8B92C348CCC00F28D49 /* Sound.mp3 */,
+				845EA8BB2C34901C00F28D49 /* Tap.mp3 */,
+				843A1A6A2C33248700787080 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		845EA8B42C345D5400F28D49 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				843A1A732C33294700787080 /* GameView.swift */,
+				845EA8B52C345D7000F28D49 /* GameScene + Ext.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		843A1A5F2C33248600787080 /* Tiger Catcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843A1A6E2C33248700787080 /* Build configuration list for PBXNativeTarget "Tiger Catcher" */;
+			buildPhases = (
+				843A1A5C2C33248600787080 /* Sources */,
+				843A1A5D2C33248600787080 /* Frameworks */,
+				843A1A5E2C33248600787080 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tiger Catcher";
+			productName = "Catch the Tiger";
+			productReference = 843A1A602C33248600787080 /* Tiger Catcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		843A1A582C33248600787080 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					843A1A5F2C33248600787080 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 843A1A5B2C33248600787080 /* Build configuration list for PBXProject "Tiger Catcher" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 843A1A572C33248600787080;
+			productRefGroup = 843A1A612C33248600787080 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				843A1A5F2C33248600787080 /* Tiger Catcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		843A1A5E2C33248600787080 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843A1A6B2C33248700787080 /* Preview Assets.xcassets in Resources */,
+				843A1A682C33248700787080 /* Assets.xcassets in Resources */,
+				845EA8BC2C34901C00F28D49 /* Tap.mp3 in Resources */,
+				845EA8BA2C348CCC00F28D49 /* Sound.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		843A1A5C2C33248600787080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843A1A662C33248600787080 /* MenuView.swift in Sources */,
+				843A1A742C33294700787080 /* GameView.swift in Sources */,
+				845EA8B62C345D7000F28D49 /* GameScene + Ext.swift in Sources */,
+				843A1A642C33248600787080 /* Tiger_CatcherApp.swift in Sources */,
+				843A1A782C332A3B00787080 /* ScoresView.swift in Sources */,
+				845EA8B82C348BED00F28D49 /* SoundManager.swift in Sources */,
+				843A1A762C3329C700787080 /* OptionsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		843A1A6C2C33248700787080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		843A1A6D2C33248700787080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		843A1A6F2C33248700787080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tiger Catcher/Preview Content\"";
+				DEVELOPMENT_TEAM = 3P9824CY5J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "development.Catch-the-Tiger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		843A1A702C33248700787080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tiger Catcher/Preview Content\"";
+				DEVELOPMENT_TEAM = 3P9824CY5J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "development.Catch-the-Tiger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		843A1A5B2C33248600787080 /* Build configuration list for PBXProject "Tiger Catcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843A1A6C2C33248700787080 /* Debug */,
+				843A1A6D2C33248700787080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843A1A6E2C33248700787080 /* Build configuration list for PBXNativeTarget "Tiger Catcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843A1A6F2C33248700787080 /* Debug */,
+				843A1A702C33248700787080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 843A1A582C33248600787080 /* Project object */;
+}
